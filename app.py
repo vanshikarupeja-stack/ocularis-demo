@@ -4,7 +4,7 @@ import random
 import time
 
 # Configure the page settings
-st.set_page_config(page_title="Ocularis AI", page_icon="👁️", layout="wide")
+st.set_page_config(page_title="Ocularis AI", layout="wide")
 
 # --- HIDE STREAMLIT BRANDING ---
 hide_st_style = """
