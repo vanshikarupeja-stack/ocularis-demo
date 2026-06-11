@@ -6,6 +6,17 @@ import time
 # Configure the page settings
 st.set_page_config(page_title="Ocularis AI", page_icon="👁️", layout="wide")
 
+# --- HIDE STREAMLIT BRANDING ---
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+# ---------------------------------
+
 # Dashboard Header
 st.title("👁️ Ocularis AI: Sentinel Engine")
 st.subheader("Sub-200ms Synthetic KYC Fraud Detection")
