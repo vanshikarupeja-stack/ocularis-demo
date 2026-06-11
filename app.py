@@ -18,7 +18,7 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 # ---------------------------------
 
 # Dashboard Header
-st.title("👁️ Ocularis AI: Sentinel Engine")
+st.title(" Ocularis AI: Sentinel Engine")
 st.subheader("Sub-200ms Synthetic KYC Fraud Detection")
 
 # Load the dataset you just generated
